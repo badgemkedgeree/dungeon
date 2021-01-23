@@ -3,18 +3,24 @@
     {
       "identifier": "location1",
       "description": "Location1",
-      "next_location_identifier": "location2"
+      "next_location_identifier": "location3",
+      "enemy_identifier": "creature2"
     },
     {
       "identifier": "location2",
       "description": "Location2",
-      "next_location_identifier": "location3",
+      "next_location_identifier": "location4",
       "enemy_identifier": "creature1"
     },
     {
       "identifier": "location3",
       "description": "Location3",
-      "enemy_identifier": "creature3"
+      "enemy_identifier": "creature3",
+      "next_location_identifier": "location2"
+    },
+    {
+      "identifier": "location4",
+      "description": "Location4"
     }
   ],
   "creatures": [
@@ -33,8 +39,8 @@
     {
       "identifier" : "creature3",
       "name": "Very Large Troll",
-      "skill" : 10,
-      "stamina" : 13
+      "skill" : 7,
+      "stamina" : 10
     }
   ]
 }

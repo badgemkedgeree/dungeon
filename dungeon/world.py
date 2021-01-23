@@ -1,7 +1,7 @@
 import json
 
-from dungeon.Creature import Creature
-from dungeon.Location import Location
+from creature import Creature
+from location import Location
 
 
 class World:
