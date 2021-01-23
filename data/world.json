@@ -1,0 +1,40 @@
+{
+  "locations": [
+    {
+      "identifier": "location1",
+      "description": "Location1",
+      "next_location_identifier": "location2"
+    },
+    {
+      "identifier": "location2",
+      "description": "Location2",
+      "next_location_identifier": "location3",
+      "enemy_identifier": "creature1"
+    },
+    {
+      "identifier": "location3",
+      "description": "Location3",
+      "enemy_identifier": "creature3"
+    }
+  ],
+  "creatures": [
+    {
+      "identifier" : "creature1",
+      "name": "Cave Goblin",
+      "skill" : 5,
+      "stamina" : 5
+    },
+    {
+      "identifier" : "creature2",
+      "name": "Flying Goblin",
+      "skill" : 6,
+      "stamina" : 5
+    },
+    {
+      "identifier" : "creature3",
+      "name": "Very Large Troll",
+      "skill" : 10,
+      "stamina" : 13
+    }
+  ]
+}
